@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agar.io-Clone</title>
+        <script src="https://unpkg.com/kaplay@3001.0.19/dist/kaplay.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+
+        <div class="radius-display-mobile view"></div>
+
+        <div class="side-drawer view">
+            <span class="side-drawer-xy"></span>
+            <span class="side-drawer-leader"></span>
+            <div class="chat-wrapper-mobile">
+                <div class="chat-display">
+                    <div id="welcome-msg-mobile" class="chat-record"></div>
+                </div>
+                <input id="chat-input-mobile"
+                       placeholder="scrivi..."
+                       >
+            </div>
+            <div class="side-drawer-hide-btn"><span>></span></div>
+        </div>
+
+        <div class="login-wrapper">
+            <span>Agar.io</span>
+            <div class="login-container">
+                
+                <input id="username"
+                       type="text"
+                       placeholder="username"
+                >
+                <input id="password"
+                       type="password"
+                       placeholder="password"
+                >
+                <div class="login-buttons">
+                    <div class="login-button">Login</div>
+                    <div class="register-button">Sign in</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-wrapper view">
+            <span>Agar.io</span>
+            <div class="register-container">
+                
+                <input id="username-reg"
+                       type="text"
+                       placeholder="username"
+                >
+                <input id="password-reg"
+                       type="password"
+                       placeholder="password"
+                >
+                <div class="register-buttons">
+                    
+                    <div id="reg-button" 
+                         class="register-button">Save</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-view view">
+            <div class="dashboard-wrapper">
+                <div class="dashboard-user-info">
+                    
+                    <div class="profile-pic">
+                        <img 
+                            id="profile_photo"
+                            src="./img/Future-Trunks-Super-Saiyan-2-400x400.jpg" 
+                            alt="profile_foto">
+                        
+                        <input 
+                            id="profile-photo-submit"
+                            type="file" 
+                            accept="image/*">
+                        <img
+                            id="profile-photo-submit-img"
+                            src="./img/photo-camera-interface-symbol-for-button.png">
+                    </div>
+                    <div class="dashboard-username"></div>
+                    <center><div class="dashboard-username dashboard-personal-record"></div></center>
+                </div>
+                <div class="dashboard-main">
+                    <span class="play-button">Gioca</span>
+                    <div class="game-history">
+                        <span id="cronologia">Cronologia:</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-wrapper view">
+            
+            <div class="end-dialog view">
+                <div class="end-dialog-bg-card">
+                    <span class="end-dialog-span">Hai vinto!</span>
+                    <div class="end-dialog-button">OK</div>
+                </div>
+            </div>
+
+            <div class="header-wrapper">
+                <div class="header">
+                    <div id="current_pos" class="header-elem"></div>
+                    <div id="current_radius" class="header-elem"></div>
+                    <div id="current_leader" class="header-elem"></div>
+                </div>
+            </div>
+            <canvas id="canvas"></canvas>
+
+            <div class="chat-wrapper">
+                <div class="chat-display">
+                    <div id="welcome-msg" class="chat-record"></div>
+                </div>
+                <input id="chat-input"
+                       placeholder="scrivi..."
+                       size="40">
+            </div>
+
+            <div class="esc-menu-wrapper view">
+                <div class="menu">
+                    <div class="option">Quit</div>
+                </div>
+            </div>
+
+            <div class="controller-buttons-wrapper">
+                <!-- <img id="up_arrow" src="./img/up.png" alt="up_arrow">
+                <img id="right_arrow" src="./img/right.png" alt="right_arrow">
+                <img id="down_arrow" src="./img/down.png" alt="down_arrow">
+                <img id="left_arrow" src="./img/left.png" alt="left_arrow"> -->
+                <img id="boom" src="./img/boom.png" alt="boom">
+                <img id="boom-mini" src="./img/boom.png" alt="boom-mini">
+                
+            </div>
+
+        </div>
+
+        <script src="https://cdn.statically.io/gh/cyrus2281/joystick-controller/main/dist/umd/joystick-controller.min.js"></script>
+        <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
