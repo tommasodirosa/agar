@@ -2,7 +2,7 @@
 # Agar.io (Progetto web development)
 
 
-<img src="/public/img/img-readme.png" width="400">
+<img src="/public/img/img-readme.png" width="600">
 
 ## Tecnologie utilizzate:
 
