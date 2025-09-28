@@ -24,3 +24,5 @@
 dopo aver installato le dipendenze con il comando ``npm install``
 eseguire ``npm run start`` per avviare il web-server  
 collegarsi a *[http://localhost:9000](http://localhost:9000)*
+
+creare un account o utilizzare uno degli account pre-esistenti *-> username: thanos123 password: doom <-*
