@@ -1,6 +1,9 @@
 
 # Agar.io (Progetto web development)
 
+
+<img src="/public/img/img-readme.png" width="400">
+
 ## Tecnologie utilizzate:
 
 ### Front-End:
