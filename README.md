@@ -26,3 +26,10 @@ eseguire ``npm run start`` per avviare il web-server
 collegarsi a *[http://localhost:9000](http://localhost:9000)*
 
 creare un account o utilizzare uno degli account pre-esistenti *-> username: thanos123 password: doom <-*
+
+### Ingame-Rules:
+
+- dopo aver mangiato una cella, quest'ultima respawna in una pos. random
+- con il tasto z si spara il mini-proiettile (richiede r >= 150)
+- con il tasto *spazio* si spara il proiettile grande quanto la metà del proprio raggio (richiede r >= 75)
+- *NB*: per poter salvare la partita sul DB bisogna essere almeno in due giocatori
