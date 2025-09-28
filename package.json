@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main.js 9000"
+    "start": "node main.js 9000"
   },
   "keywords": [],
   "author": "",
