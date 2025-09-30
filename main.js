@@ -304,6 +304,7 @@ io.on("connection", (socket) => {
                         score: plr.radius
                     })
                 }
+                //controllare qua (e cambiare npm start nodemon --> node) 
                 //state.players = [];
 
                 insertMatch(doc);

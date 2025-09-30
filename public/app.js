@@ -684,7 +684,7 @@ function startGame() {
                 });
                 k.drawText({ 
                     text: other.username, 
-                    size: other.radius * 2,
+                    size: other.radius,
                     color: k.WHITE,
                     font: "sans-serif",
                     pos: k.vec2(other.pos.x, other.pos.y),

@@ -349,7 +349,7 @@ div.profile-pic {
 
 img#profile-photo-submit-img {
     position: absolute;
-    
+    left: -6px;
     bottom: -10px;
     width: 2rem;
     background-color: #ffd700;
@@ -475,9 +475,11 @@ div.chat-record {
 
 }
 @media screen and ( max-width: 56.25rem ) {
+    /*
     div[class~=side-drawer] input#chat-input-mobile {
 
     }
+    */
     .chat-wrapper-mobile {
         width: 80%;
         display: inline;
